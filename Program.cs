@@ -17,6 +17,13 @@ int AddTwoNumbers(int num1, int num2)
     return result;
 }
 
+//create function calculate area of a circle
+ function CalculateAreaOfCircle(int radius)
+{
+    double area = Math.PI * radius * radius;
+    return area;
+}
+
 //create unit tests for function
 
 Console.WriteLine(AddTwoNumbers(2, 3) == 5);
